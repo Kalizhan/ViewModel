@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/userList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/user_item"
+            tools:itemCount="12"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="24dp"-->
+<!--        tools:layout_editor_absoluteX="199dp"-->
+<!--        tools:layout_editor_absoluteY="349dp" />-->
+
+<!--    <Button-->
+<!--        android:onClick="toastFun"-->
+<!--        android:id="@+id/toastbtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="toast"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView"-->
+<!--        android:layout_marginTop="20dp"/>-->
+
+<!--    <Button-->
+<!--        android:onClick="countFun"-->
+<!--        android:id="@+id/countbtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="count"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/randombtn"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/toastbtn"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+
+<!--    <Button-->
+<!--        android:onClick="randromFun"-->
+<!--        android:id="@+id/randombtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="124dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="random"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
